@@ -1,1 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b1a0b;
+  color: white;
+  text-align: center;
+}
 
+header {
+  background: linear-gradient(#1e7f1e, #0b1a0b);
+  padding: 20px;
+}
+
+.logo {
+  width: 120px;
+}
+
+nav {
+  background: #145214;
+  padding: 10px;
+}
+
+nav a {
+  color: #00ff55;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+.card {
+  background: #133913;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  background: black;
+  padding: 10px;
+  margin-top: 30px;
+}
