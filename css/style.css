@@ -32,10 +32,29 @@ nav a:hover {
 }
 
 .card {
-  background: #133913;
-  margin: 20px;
+  background: #1a1a1a;
   padding: 20px;
+  margin: 15px;
   border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #ffcc00;
+  color: #000;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background: #ffaa00;
 }
 
 footer {
