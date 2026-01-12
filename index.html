@@ -1,37 +1,112 @@
 <!DOCTYPE html>
 <html lang="hy">
 <head>
-  <meta charset="UTF-8">
-  <title>MC ARMENIA HUB</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MC ARMENIA HUB</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: #0d1117;
+            color: #fff;
+        }
+
+        header {
+            background: #1e1e1e;
+            text-align: center;
+            padding: 20px;
+            font-size: 32px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 50px 20px;
+        }
+
+        .card {
+            background: #1e1e1e;
+            border-radius: 10px;
+            width: 220px;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .card a {
+            text-decoration: none;
+            color: white;
+            background: #4caf50;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .card a:hover {
+            background: #45a049;
+        }
+    </style>
 </head>
 <body>
+    <header>MC ARMENIA HUB</header>
 
-<header>
-  <img src="assets/logo.png" class="logo">
-  <h1>🇦🇲 MC ARMENIA HUB 🇦🇲</h1>
-  <p>Հայկական Minecraft համայնքի կենտրոն</p>
-</header>
+    <section class="cards">
+        <div class="card">
+            <h2>Մեր մասին</h2>
+            <p>Ծանոթացեք MC ARMENIA HUB-ի մասին լրացուցիչ ինֆորմացիային</p>
+            <a href="about.html">Դիտել</a>
+        </div>
 
-<nav>
-  <a href="servers.html">Սերվերներ</a>
-  <a href="worlds.html">Աշխարհներ</a>
-  <a href="mods.html">Մոդեր</a>
-  <a href="textures.html">TexturePack</a>
-  <a href="books.html">Գրքեր</a>
-  <a href="about.html">Մեր մասին</a>
-</nav>
+        <div class="card">
+            <h2>Գրքեր</h2>
+            <p>100 էջ սկսնակների համար, Minecraft-ում խաղալը սովորելու համար</p>
+            <a href="books.html">Դիտել</a>
+        </div>
 
-<section class="card">
-  <h2>🔥 Հայկական Top Minecraft Սերվեր</h2>
-  <p>📡 IP: <b>darsikhub.20tps.ru</b></p>
-  <p>⏰ 24/7 Աշխատում է</p>
-</section>
+        <div class="card">
+            <h2>Մոդեր</h2>
+            <p>Ներբեռնեք Minecraft մոդերը տարբեր վերսիաների համար</p>
+            <a href="mods.html">Ներբեռնել</a>
+        </div>
 
-<footer>
-  <p>© 2026 MC ARMENIA HUB</p>
-</footer>
+        <div class="card">
+            <h2>TexturePack</h2>
+            <p>Պահպանեք խաղը նոր տեսք տալով՝ TexturePack-ների միջոցով</p>
+            <a href="textures.html">Ներբեռնել</a>
+        </div>
 
-<script src="js/script.js"></script>
+        <div class="card">
+            <h2>Սերվերներ</h2>
+            <p>Հայկական լավագույն Minecraft սերվերները դիտելու համար</p>
+            <a href="servers.html">Դիտել</a>
+        </div>
+
+        <div class="card">
+            <h2>Աշխարհներ</h2>
+            <p>Ներբեռնեք և խաղացեք Minecraft աշխարհներում</p>
+            <a href="worlds.html">Ներբեռնել</a>
+        </div>
+    </section>
 </body>
-</html>
+  </html>
